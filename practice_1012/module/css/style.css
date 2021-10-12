@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+/*
+common style
+*/
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+#mv {
+  min-height: 100vh;
+  background-image: url(../images/news.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#outPutField {
+  font-size: 28px;
+}

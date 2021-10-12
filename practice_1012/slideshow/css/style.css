@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+/*
+common style
+*/
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+#mv {
+  min-height: 100vh;
+  background-image: url(../images/news.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 背景画像のアニメーション */
+  transition: all 4.5s ease-in-out;
+}
+
+#outPutField {
+  font-size: 28px;
+  background-color: rgba(169, 169, 169, 0.26);
+  color: #FFF;
+  padding: 1em 2em;
+  border-radius: 9999px;
+}
+
